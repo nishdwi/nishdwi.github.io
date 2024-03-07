@@ -1,7 +1,367 @@
 <link rel="stylesheet" href="files/mystyle.css">
 <h3>India Reco Page </h3>
 
-<h3>04-Mar-2024</h3><table border="1" class="dataframe" id="reco_table">
+<h3>06-Mar-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/NCC.BO/chart?p=NCC.BO" target="_blank">NCC.BO</a></td>
+      <td>Ncc Limited</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Small</td>
+      <td>15.53%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BEL.BO/chart?p=BEL.BO" target="_blank">BEL.BO</a></td>
+      <td>Bharat Electronics Ltd.</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Mid</td>
+      <td>10.46%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HAL.BO/chart?p=HAL.BO" target="_blank">HAL.BO</a></td>
+      <td>Hindustan Aeronautics Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Large</td>
+      <td>9.78%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VGUARD.BO/chart?p=VGUARD.BO" target="_blank">VGUARD.BO</a></td>
+      <td>V-Guard Industries Ltd.</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Small</td>
+      <td>9.02%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KAYNES.BO/chart?p=KAYNES.BO" target="_blank">KAYNES.BO</a></td>
+      <td>Kaynes Technology India Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Small</td>
+      <td>7.77%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BDL.BO/chart?p=BDL.BO" target="_blank">BDL.BO</a></td>
+      <td>Bharat Dynamics Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Mid</td>
+      <td>7.58%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GUJGAS.BO/chart?p=GUJGAS.BO" target="_blank">GUJGAS.BO</a></td>
+      <td>Gujarat Gas Limited</td>
+      <td>Energy</td>
+      <td>Oil, Gas & Consumable Fuels</td>
+      <td>Mid</td>
+      <td>7.33%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HAVELLS.BO/chart?p=HAVELLS.BO" target="_blank">HAVELLS.BO</a></td>
+      <td>Havells India Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Mid</td>
+      <td>7.20%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/INDIGO.BO/chart?p=INDIGO.BO" target="_blank">INDIGO.BO</a></td>
+      <td>Interglobe Aviation Limited</td>
+      <td>Services</td>
+      <td>Services</td>
+      <td>Mid</td>
+      <td>6.51%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/SAIL.BO/chart?p=SAIL.BO" target="_blank">SAIL.BO</a></td>
+      <td>Steel Authority Of India Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Metals & Mining</td>
+      <td>Mid</td>
+      <td>6.05%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VEDL.BO/chart?p=VEDL.BO" target="_blank">VEDL.BO</a></td>
+      <td>Vedanta Limited</td>
+      <td>Basic Materials</td>
+      <td>Metals & Mining</td>
+      <td>Large</td>
+      <td>4.65%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CDSL.NS/chart?p=CDSL.NS" target="_blank">CDSL.NS</a></td>
+      <td>Central Depository Services (India) Limited</td>
+      <td>Financial</td>
+      <td>Capital Markets</td>
+      <td>Small</td>
+      <td>3.71%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/TITAN.BO/chart?p=TITAN.BO" target="_blank">TITAN.BO</a></td>
+      <td>Titan Company Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Large</td>
+      <td>1.92%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/LT.BO/chart?p=LT.BO" target="_blank">LT.BO</a></td>
+      <td>Larsen & Toubro Limited</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Large</td>
+      <td>1.10%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KNRCON.BO/chart?p=KNRCON.BO" target="_blank">KNRCON.BO</a></td>
+      <td>Knr Constructions Limited</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Small</td>
+      <td>0.96%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FINPIPE.NS/chart?p=FINPIPE.NS" target="_blank">FINPIPE.NS</a></td>
+      <td>Finolex Industries Limited</td>
+      <td>Industrials</td>
+      <td>Industrial Products</td>
+      <td>Small</td>
+      <td>0.36%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-03-06</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CMSINFO.BO/chart?p=CMSINFO.BO" target="_blank">CMSINFO.BO</a></td>
+      <td>Cms Info Systems Limited</td>
+      <td>Services</td>
+      <td>Services</td>
+      <td>Small</td>
+      <td>0.08%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>05-Mar-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/NCC.BO/chart?p=NCC.BO" target="_blank">NCC.BO</a></td>
+      <td>Ncc Limited</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Small</td>
+      <td>14.55%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BEL.BO/chart?p=BEL.BO" target="_blank">BEL.BO</a></td>
+      <td>Bharat Electronics Ltd.</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Mid</td>
+      <td>9.63%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HAL.BO/chart?p=HAL.BO" target="_blank">HAL.BO</a></td>
+      <td>Hindustan Aeronautics Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Large</td>
+      <td>8.87%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ISEC.BO/chart?p=ISEC.BO" target="_blank">ISEC.BO</a></td>
+      <td>Icici Securities Limited</td>
+      <td>Financial</td>
+      <td>Financial Services</td>
+      <td>Small</td>
+      <td>8.35%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VGUARD.BO/chart?p=VGUARD.BO" target="_blank">VGUARD.BO</a></td>
+      <td>V-Guard Industries Ltd.</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Small</td>
+      <td>8.19%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/MCX.BO/chart?p=MCX.BO" target="_blank">MCX.BO</a></td>
+      <td>Multi Commodity Exchange Of India Ltd</td>
+      <td>Financial</td>
+      <td>Financial Services</td>
+      <td>Small</td>
+      <td>7.61%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BDL.BO/chart?p=BDL.BO" target="_blank">BDL.BO</a></td>
+      <td>Bharat Dynamics Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Mid</td>
+      <td>7.45%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JSL.BO/chart?p=JSL.BO" target="_blank">JSL.BO</a></td>
+      <td>Jindal Stainless Limited</td>
+      <td>Basic Materials</td>
+      <td>Metals & Mining</td>
+      <td>Small</td>
+      <td>7.44%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/LODHA.BO/chart?p=LODHA.BO" target="_blank">LODHA.BO</a></td>
+      <td>Macrotech Developers Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Realty</td>
+      <td>Mid</td>
+      <td>6.60%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/INDIGO.BO/chart?p=INDIGO.BO" target="_blank">INDIGO.BO</a></td>
+      <td>Interglobe Aviation Limited</td>
+      <td>Services</td>
+      <td>Services</td>
+      <td>Mid</td>
+      <td>6.46%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/SAIL.BO/chart?p=SAIL.BO" target="_blank">SAIL.BO</a></td>
+      <td>Steel Authority Of India Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Metals & Mining</td>
+      <td>Mid</td>
+      <td>5.96%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CDSL.NS/chart?p=CDSL.NS" target="_blank">CDSL.NS</a></td>
+      <td>Central Depository Services (India) Limited</td>
+      <td>Financial</td>
+      <td>Capital Markets</td>
+      <td>Small</td>
+      <td>4.00%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GESHIP.BO/chart?p=GESHIP.BO" target="_blank">GESHIP.BO</a></td>
+      <td>Great Eastern Shipping Co. Ltd.</td>
+      <td>Services</td>
+      <td>Services</td>
+      <td>Small</td>
+      <td>2.17%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/TITAN.BO/chart?p=TITAN.BO" target="_blank">TITAN.BO</a></td>
+      <td>Titan Company Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Large</td>
+      <td>1.14%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KNRCON.BO/chart?p=KNRCON.BO" target="_blank">KNRCON.BO</a></td>
+      <td>Knr Constructions Limited</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Small</td>
+      <td>1.22%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-03-05</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/LT.BO/chart?p=LT.BO" target="_blank">LT.BO</a></td>
+      <td>Larsen & Toubro Limited</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Large</td>
+      <td>0.37%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>04-Mar-2024</h3><table border="1" class="dataframe" id="reco_table">
   <thead>
     <tr style="text-align: center;">
       <th></th>
@@ -134,366 +494,6 @@
       <td>Construction</td>
       <td>Small</td>
       <td>1.57%</td>
-    </tr>
-  </tbody>
-</table><br><br><br><br><br><h3>01-Mar-2024</h3><table border="1" class="dataframe" id="reco_table">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th col-index=1 >Date</th>
-      <th col-index=2 >Ticker</th>
-      <th col-index=3 >Company</th>
-      <th col-index=4 >Sector</th>
-      <th col-index=5 >Industry</th>
-      <th col-index=6 >McapClass</th>
-      <th col-index=7 >Allocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DLF.BO/chart?p=DLF.BO" target="_blank">DLF.BO</a></td>
-      <td>Dlf Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Realty</td>
-      <td>Large</td>
-      <td>11.92%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NCC.BO/chart?p=NCC.BO" target="_blank">NCC.BO</a></td>
-      <td>Ncc Limited</td>
-      <td>Industrials</td>
-      <td>Construction</td>
-      <td>Small</td>
-      <td>10.86%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BHEL.BO/chart?p=BHEL.BO" target="_blank">BHEL.BO</a></td>
-      <td>Bharat Heavy Electricals Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>8.39%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/M&M.BO/chart?p=M&M.BO" target="_blank">M&M.BO</a></td>
-      <td>Mahindra & Mahindra Ltd.</td>
-      <td>Consumer Cyclical</td>
-      <td>Automobile and Auto Components</td>
-      <td>Large</td>
-      <td>7.56%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ACI.BO/chart?p=ACI.BO" target="_blank">ACI.BO</a></td>
-      <td>Archean Chemical Industries Limited</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>7.52%</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BEL.BO/chart?p=BEL.BO" target="_blank">BEL.BO</a></td>
-      <td>Bharat Electronics Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>7.03%</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NAVA.BO/chart?p=NAVA.BO" target="_blank">NAVA.BO</a></td>
-      <td>Nava Limited</td>
-      <td>Utilities</td>
-      <td>Power</td>
-      <td>Small</td>
-      <td>6.61%</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/MCX.BO/chart?p=MCX.BO" target="_blank">MCX.BO</a></td>
-      <td>Multi Commodity Exchange Of India Ltd</td>
-      <td>Financial</td>
-      <td>Financial Services</td>
-      <td>Small</td>
-      <td>6.54%</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HAL.BO/chart?p=HAL.BO" target="_blank">HAL.BO</a></td>
-      <td>Hindustan Aeronautics Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Large</td>
-      <td>6.36%</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BDL.BO/chart?p=BDL.BO" target="_blank">BDL.BO</a></td>
-      <td>Bharat Dynamics Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>6.31%</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ISEC.BO/chart?p=ISEC.BO" target="_blank">ISEC.BO</a></td>
-      <td>Icici Securities Limited</td>
-      <td>Financial</td>
-      <td>Financial Services</td>
-      <td>Small</td>
-      <td>6.27%</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/LODHA.BO/chart?p=LODHA.BO" target="_blank">LODHA.BO</a></td>
-      <td>Macrotech Developers Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Realty</td>
-      <td>Mid</td>
-      <td>4.97%</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/GRASIM.BO/chart?p=GRASIM.BO" target="_blank">GRASIM.BO</a></td>
-      <td>Grasim Industries Ltd.</td>
-      <td>Basic Materials</td>
-      <td>Construction Materials</td>
-      <td>Large</td>
-      <td>4.32%</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HAVELLS.BO/chart?p=HAVELLS.BO" target="_blank">HAVELLS.BO</a></td>
-      <td>Havells India Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Durables</td>
-      <td>Mid</td>
-      <td>3.67%</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/KNRCON.BO/chart?p=KNRCON.BO" target="_blank">KNRCON.BO</a></td>
-      <td>Knr Constructions Limited</td>
-      <td>Industrials</td>
-      <td>Construction</td>
-      <td>Small</td>
-      <td>1.13%</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2024-03-01</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/RKFORGE.BO/chart?p=RKFORGE.BO" target="_blank">RKFORGE.BO</a></td>
-      <td>Ramkrishna Forgings Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Small</td>
-      <td>0.55%</td>
-    </tr>
-  </tbody>
-</table><br><br><br><br><br><h3>29-Feb-2024</h3><table border="1" class="dataframe" id="reco_table">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th col-index=1 >Date</th>
-      <th col-index=2 >Ticker</th>
-      <th col-index=3 >Company</th>
-      <th col-index=4 >Sector</th>
-      <th col-index=5 >Industry</th>
-      <th col-index=6 >McapClass</th>
-      <th col-index=7 >Allocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DLF.BO/chart?p=DLF.BO" target="_blank">DLF.BO</a></td>
-      <td>Dlf Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Realty</td>
-      <td>Large</td>
-      <td>10.72%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NCC.BO/chart?p=NCC.BO" target="_blank">NCC.BO</a></td>
-      <td>Ncc Limited</td>
-      <td>Industrials</td>
-      <td>Construction</td>
-      <td>Small</td>
-      <td>9.76%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/GAIL.BO/chart?p=GAIL.BO" target="_blank">GAIL.BO</a></td>
-      <td>Gail (India) Ltd.</td>
-      <td>Energy</td>
-      <td>Oil, Gas & Consumable Fuels</td>
-      <td>Mid</td>
-      <td>8.76%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BHEL.BO/chart?p=BHEL.BO" target="_blank">BHEL.BO</a></td>
-      <td>Bharat Heavy Electricals Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>7.91%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ACI.BO/chart?p=ACI.BO" target="_blank">ACI.BO</a></td>
-      <td>Archean Chemical Industries Limited</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>6.90%</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/M&M.BO/chart?p=M&M.BO" target="_blank">M&M.BO</a></td>
-      <td>Mahindra & Mahindra Ltd.</td>
-      <td>Consumer Cyclical</td>
-      <td>Automobile and Auto Components</td>
-      <td>Large</td>
-      <td>6.63%</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BEL.BO/chart?p=BEL.BO" target="_blank">BEL.BO</a></td>
-      <td>Bharat Electronics Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>6.34%</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NAVA.BO/chart?p=NAVA.BO" target="_blank">NAVA.BO</a></td>
-      <td>Nava Limited</td>
-      <td>Utilities</td>
-      <td>Power</td>
-      <td>Small</td>
-      <td>6.02%</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BDL.BO/chart?p=BDL.BO" target="_blank">BDL.BO</a></td>
-      <td>Bharat Dynamics Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>5.83%</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BRIGADE.BO/chart?p=BRIGADE.BO" target="_blank">BRIGADE.BO</a></td>
-      <td>Brigade Enterprises Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Realty</td>
-      <td>Small</td>
-      <td>5.95%</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HAL.BO/chart?p=HAL.BO" target="_blank">HAL.BO</a></td>
-      <td>Hindustan Aeronautics Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Large</td>
-      <td>5.59%</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/JSL.BO/chart?p=JSL.BO" target="_blank">JSL.BO</a></td>
-      <td>Jindal Stainless Limited</td>
-      <td>Basic Materials</td>
-      <td>Metals & Mining</td>
-      <td>Small</td>
-      <td>5.03%</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SBILIFE.BO/chart?p=SBILIFE.BO" target="_blank">SBILIFE.BO</a></td>
-      <td>Sbi Life Insurance Company Limited</td>
-      <td>Financial</td>
-      <td>Financial Services</td>
-      <td>Large</td>
-      <td>4.70%</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/LODHA.BO/chart?p=LODHA.BO" target="_blank">LODHA.BO</a></td>
-      <td>Macrotech Developers Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Realty</td>
-      <td>Mid</td>
-      <td>4.48%</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HAVELLS.BO/chart?p=HAVELLS.BO" target="_blank">HAVELLS.BO</a></td>
-      <td>Havells India Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Durables</td>
-      <td>Mid</td>
-      <td>2.93%</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SUNTECK.BO/chart?p=SUNTECK.BO" target="_blank">SUNTECK.BO</a></td>
-      <td>Sunteck Realty Ltd</td>
-      <td>Consumer Cyclical</td>
-      <td>Realty</td>
-      <td>Small</td>
-      <td>1.91%</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2024-02-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/RKFORGE.BO/chart?p=RKFORGE.BO" target="_blank">RKFORGE.BO</a></td>
-      <td>Ramkrishna Forgings Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Small</td>
-      <td>0.55%</td>
     </tr>
   </tbody>
 </table><br><br><br><br><br>
