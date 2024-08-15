@@ -1,7 +1,537 @@
 <link rel="stylesheet" href="files/mystyle.css">
 <h3>India Reco Page </h3>
 
-<h3>12-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
+<h3>14-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VMART.BO/chart?p=VMART.BO" target="_blank">VMART.BO</a></td>
+      <td>V-Mart Retail Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Services</td>
+      <td>Small</td>
+      <td>6.13%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BIKAJI.BO/chart?p=BIKAJI.BO" target="_blank">BIKAJI.BO</a></td>
+      <td>Bikaji Foods International Limited</td>
+      <td>Consumer Defensive</td>
+      <td>Fast Moving Consumer Goods</td>
+      <td>Small</td>
+      <td>5.54%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CERA.BO/chart?p=CERA.BO" target="_blank">CERA.BO</a></td>
+      <td>Cera Sanitaryware Ltd.</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Small</td>
+      <td>5.27%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/DHANUKA.BO/chart?p=DHANUKA.BO" target="_blank">DHANUKA.BO</a></td>
+      <td>Dhanuka Agritech Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>5.29%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ZOMATO.BO/chart?p=ZOMATO.BO" target="_blank">ZOMATO.BO</a></td>
+      <td>Zomato Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Services</td>
+      <td>Large</td>
+      <td>5.36%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/LUPIN.BO/chart?p=LUPIN.BO" target="_blank">LUPIN.BO</a></td>
+      <td>Lupin Ltd</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>5.16%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/STAR.BO/chart?p=STAR.BO" target="_blank">STAR.BO</a></td>
+      <td>Strides Pharma Science Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>5.09%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GLAXO.BO/chart?p=GLAXO.BO" target="_blank">GLAXO.BO</a></td>
+      <td>Glaxosmithkline Pharmaceuticals Ltd.</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>4.97%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ERIS.BO/chart?p=ERIS.BO" target="_blank">ERIS.BO</a></td>
+      <td>Eris Lifesciences Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>4.98%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GMRP&UI.BO/chart?p=GMRP&UI.BO" target="_blank">GMRP&UI.BO</a></td>
+      <td>Gmr Power And Urban Infra Limited</td>
+      <td>Utilities</td>
+      <td>Power</td>
+      <td>Small</td>
+      <td>4.85%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HSCL.BO/chart?p=HSCL.BO" target="_blank">HSCL.BO</a></td>
+      <td>Himadri Speciality Chemical Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Mid</td>
+      <td>4.54%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/PTCIL.BO/chart?p=PTCIL.BO" target="_blank">PTCIL.BO</a></td>
+      <td>Ptc Industries Ltd.</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Small</td>
+      <td>2.91%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ROSSARI.BO/chart?p=ROSSARI.BO" target="_blank">ROSSARI.BO</a></td>
+      <td>Rossari Biotech Limited</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>4.06%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VGUARD.BO/chart?p=VGUARD.BO" target="_blank">VGUARD.BO</a></td>
+      <td>V-Guard Industries Ltd.</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Small</td>
+      <td>3.71%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RALLIS.BO/chart?p=RALLIS.BO" target="_blank">RALLIS.BO</a></td>
+      <td>Rallis India Ltd</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>3.71%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KIMS.BO/chart?p=KIMS.BO" target="_blank">KIMS.BO</a></td>
+      <td>Krishna Institute Of Medical Sciences Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>3.50%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/TRENT.BO/chart?p=TRENT.BO" target="_blank">TRENT.BO</a></td>
+      <td>Trent Ltd [Lakme Ltd]</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Services</td>
+      <td>Large</td>
+      <td>3.34%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/NAZARA.BO/chart?p=NAZARA.BO" target="_blank">NAZARA.BO</a></td>
+      <td>Nazara Technologies Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Media, Entertainment & Publication</td>
+      <td>Small</td>
+      <td>3.25%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/MPSLTD.BO/chart?p=MPSLTD.BO" target="_blank">MPSLTD.BO</a></td>
+      <td>Mps Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Services</td>
+      <td>Small</td>
+      <td>2.85%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ITDCEM.BO/chart?p=ITDCEM.BO" target="_blank">ITDCEM.BO</a></td>
+      <td>Itd Cementation India Ltd</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Small</td>
+      <td>2.94%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GET&D.BO/chart?p=GET&D.BO" target="_blank">GET&D.BO</a></td>
+      <td>Ge T&D India Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Mid</td>
+      <td>2.80%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ALKEM.BO/chart?p=ALKEM.BO" target="_blank">ALKEM.BO</a></td>
+      <td>Alkem Laboratories Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>2.36%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KOVAI.BO/chart?p=KOVAI.BO" target="_blank">KOVAI.BO</a></td>
+      <td>Kovai Medical Center & Hospital Ltd</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>2.61%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GHCL.BO/chart?p=GHCL.BO" target="_blank">GHCL.BO</a></td>
+      <td>Ghcl Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>2.52%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-08-14</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CIPLA.BO/chart?p=CIPLA.BO" target="_blank">CIPLA.BO</a></td>
+      <td>Cipla Ltd.</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Large</td>
+      <td>2.27%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>13-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BIKAJI.BO/chart?p=BIKAJI.BO" target="_blank">BIKAJI.BO</a></td>
+      <td>Bikaji Foods International Limited</td>
+      <td>Consumer Defensive</td>
+      <td>Fast Moving Consumer Goods</td>
+      <td>Small</td>
+      <td>5.46%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CERA.BO/chart?p=CERA.BO" target="_blank">CERA.BO</a></td>
+      <td>Cera Sanitaryware Ltd.</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Small</td>
+      <td>5.04%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/DHANUKA.BO/chart?p=DHANUKA.BO" target="_blank">DHANUKA.BO</a></td>
+      <td>Dhanuka Agritech Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>5.14%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ZOMATO.BO/chart?p=ZOMATO.BO" target="_blank">ZOMATO.BO</a></td>
+      <td>Zomato Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Services</td>
+      <td>Large</td>
+      <td>5.24%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/AFFLE.BO/chart?p=AFFLE.BO" target="_blank">AFFLE.BO</a></td>
+      <td>Affle (India) Limited</td>
+      <td>Technology</td>
+      <td>Information Technology</td>
+      <td>Small</td>
+      <td>5.13%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/LUPIN.BO/chart?p=LUPIN.BO" target="_blank">LUPIN.BO</a></td>
+      <td>Lupin Ltd</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>4.93%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GLAXO.BO/chart?p=GLAXO.BO" target="_blank">GLAXO.BO</a></td>
+      <td>Glaxosmithkline Pharmaceuticals Ltd.</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>4.90%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GMRP&UI.BO/chart?p=GMRP&UI.BO" target="_blank">GMRP&UI.BO</a></td>
+      <td>Gmr Power And Urban Infra Limited</td>
+      <td>Utilities</td>
+      <td>Power</td>
+      <td>Small</td>
+      <td>4.99%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/STAR.BO/chart?p=STAR.BO" target="_blank">STAR.BO</a></td>
+      <td>Strides Pharma Science Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>4.92%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ERIS.BO/chart?p=ERIS.BO" target="_blank">ERIS.BO</a></td>
+      <td>Eris Lifesciences Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>4.76%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HSCL.BO/chart?p=HSCL.BO" target="_blank">HSCL.BO</a></td>
+      <td>Himadri Speciality Chemical Ltd.</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Mid</td>
+      <td>4.58%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/PTCIL.BO/chart?p=PTCIL.BO" target="_blank">PTCIL.BO</a></td>
+      <td>Ptc Industries Ltd.</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Small</td>
+      <td>4.26%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ROSSARI.BO/chart?p=ROSSARI.BO" target="_blank">ROSSARI.BO</a></td>
+      <td>Rossari Biotech Limited</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>3.95%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RALLIS.BO/chart?p=RALLIS.BO" target="_blank">RALLIS.BO</a></td>
+      <td>Rallis India Ltd</td>
+      <td>Basic Materials</td>
+      <td>Chemicals</td>
+      <td>Small</td>
+      <td>3.94%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VGUARD.BO/chart?p=VGUARD.BO" target="_blank">VGUARD.BO</a></td>
+      <td>V-Guard Industries Ltd.</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Durables</td>
+      <td>Small</td>
+      <td>3.60%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KIMS.BO/chart?p=KIMS.BO" target="_blank">KIMS.BO</a></td>
+      <td>Krishna Institute Of Medical Sciences Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Small</td>
+      <td>3.40%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/NAZARA.BO/chart?p=NAZARA.BO" target="_blank">NAZARA.BO</a></td>
+      <td>Nazara Technologies Limited</td>
+      <td>Consumer Cyclical</td>
+      <td>Media, Entertainment & Publication</td>
+      <td>Small</td>
+      <td>3.36%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/TRENT.BO/chart?p=TRENT.BO" target="_blank">TRENT.BO</a></td>
+      <td>Trent Ltd [Lakme Ltd]</td>
+      <td>Consumer Cyclical</td>
+      <td>Consumer Services</td>
+      <td>Large</td>
+      <td>3.25%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CCL.BO/chart?p=CCL.BO" target="_blank">CCL.BO</a></td>
+      <td>Ccl Products (India) Ltd.</td>
+      <td>Consumer Defensive</td>
+      <td>Fast Moving Consumer Goods</td>
+      <td>Small</td>
+      <td>2.96%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GET&D.BO/chart?p=GET&D.BO" target="_blank">GET&D.BO</a></td>
+      <td>Ge T&D India Limited</td>
+      <td>Industrials</td>
+      <td>Capital Goods</td>
+      <td>Mid</td>
+      <td>2.94%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ITDCEM.BO/chart?p=ITDCEM.BO" target="_blank">ITDCEM.BO</a></td>
+      <td>Itd Cementation India Ltd</td>
+      <td>Industrials</td>
+      <td>Construction</td>
+      <td>Small</td>
+      <td>2.84%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HFCL.BO/chart?p=HFCL.BO" target="_blank">HFCL.BO</a></td>
+      <td>Hfcl Limited</td>
+      <td>Communication Services</td>
+      <td>Telecommunication</td>
+      <td>Small</td>
+      <td>2.85%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IPCALAB.BO/chart?p=IPCALAB.BO" target="_blank">IPCALAB.BO</a></td>
+      <td>Ipca Laboratories Ltd.</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>2.71%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ALKEM.BO/chart?p=ALKEM.BO" target="_blank">ALKEM.BO</a></td>
+      <td>Alkem Laboratories Limited</td>
+      <td>Healthcare</td>
+      <td>Healthcare</td>
+      <td>Mid</td>
+      <td>2.33%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-08-13</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IEX.BO/chart?p=IEX.BO" target="_blank">IEX.BO</a></td>
+      <td>Indian Energy Exchange Limited</td>
+      <td>Financial</td>
+      <td>Financial Services</td>
+      <td>Small</td>
+      <td>2.51%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>12-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
   <thead>
     <tr style="text-align: center;">
       <th></th>
@@ -264,536 +794,6 @@
       <td>Healthcare</td>
       <td>Mid</td>
       <td>2.35%</td>
-    </tr>
-  </tbody>
-</table><br><br><br><br><br><h3>09-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th col-index=1 >Date</th>
-      <th col-index=2 >Ticker</th>
-      <th col-index=3 >Company</th>
-      <th col-index=4 >Sector</th>
-      <th col-index=5 >Industry</th>
-      <th col-index=6 >McapClass</th>
-      <th col-index=7 >Allocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DIACABS.BO/chart?p=DIACABS.BO" target="_blank">DIACABS.BO</a></td>
-      <td>Diamond Power Infrastructure Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Small</td>
-      <td>6.60%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SUNTV.BO/chart?p=SUNTV.BO" target="_blank">SUNTV.BO</a></td>
-      <td>Sun Tv Network Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Media, Entertainment & Publication</td>
-      <td>Mid</td>
-      <td>5.41%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/LUXIND.BO/chart?p=LUXIND.BO" target="_blank">LUXIND.BO</a></td>
-      <td>Lux Industries Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Textiles</td>
-      <td>Small</td>
-      <td>4.50%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/COLPAL.BO/chart?p=COLPAL.BO" target="_blank">COLPAL.BO</a></td>
-      <td>Colgate-Palmolive (India) Ltd.</td>
-      <td>Consumer Defensive</td>
-      <td>Fast Moving Consumer Goods</td>
-      <td>Mid</td>
-      <td>4.58%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DHANUKA.BO/chart?p=DHANUKA.BO" target="_blank">DHANUKA.BO</a></td>
-      <td>Dhanuka Agritech Ltd.</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>4.52%</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ZOMATO.BO/chart?p=ZOMATO.BO" target="_blank">ZOMATO.BO</a></td>
-      <td>Zomato Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Services</td>
-      <td>Large</td>
-      <td>4.60%</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BIKAJI.BO/chart?p=BIKAJI.BO" target="_blank">BIKAJI.BO</a></td>
-      <td>Bikaji Foods International Limited</td>
-      <td>Consumer Defensive</td>
-      <td>Fast Moving Consumer Goods</td>
-      <td>Small</td>
-      <td>4.57%</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/AFFLE.BO/chart?p=AFFLE.BO" target="_blank">AFFLE.BO</a></td>
-      <td>Affle (India) Limited</td>
-      <td>Technology</td>
-      <td>Information Technology</td>
-      <td>Small</td>
-      <td>4.40%</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/CERA.BO/chart?p=CERA.BO" target="_blank">CERA.BO</a></td>
-      <td>Cera Sanitaryware Ltd.</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Durables</td>
-      <td>Small</td>
-      <td>4.24%</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FSL.BO/chart?p=FSL.BO" target="_blank">FSL.BO</a></td>
-      <td>Firstsource Solutions Ltd.</td>
-      <td>Services</td>
-      <td>Services</td>
-      <td>Small</td>
-      <td>4.26%</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/GLAXO.BO/chart?p=GLAXO.BO" target="_blank">GLAXO.BO</a></td>
-      <td>Glaxosmithkline Pharmaceuticals Ltd.</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>4.11%</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SYNGENE.BO/chart?p=SYNGENE.BO" target="_blank">SYNGENE.BO</a></td>
-      <td>Syngene International Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>4.11%</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/LUPIN.BO/chart?p=LUPIN.BO" target="_blank">LUPIN.BO</a></td>
-      <td>Lupin Ltd</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>4.10%</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ERIS.BO/chart?p=ERIS.BO" target="_blank">ERIS.BO</a></td>
-      <td>Eris Lifesciences Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Small</td>
-      <td>4.03%</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/STAR.BO/chart?p=STAR.BO" target="_blank">STAR.BO</a></td>
-      <td>Strides Pharma Science Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Small</td>
-      <td>3.96%</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HSCL.BO/chart?p=HSCL.BO" target="_blank">HSCL.BO</a></td>
-      <td>Himadri Speciality Chemical Ltd.</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Mid</td>
-      <td>3.93%</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/RALLIS.BO/chart?p=RALLIS.BO" target="_blank">RALLIS.BO</a></td>
-      <td>Rallis India Ltd</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>3.73%</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SANDHAR.BO/chart?p=SANDHAR.BO" target="_blank">SANDHAR.BO</a></td>
-      <td>Sandhar Technologies Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Automobile and Auto Components</td>
-      <td>Small</td>
-      <td>3.63%</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ROSSARI.BO/chart?p=ROSSARI.BO" target="_blank">ROSSARI.BO</a></td>
-      <td>Rossari Biotech Limited</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>3.30%</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BLUEJET.BO/chart?p=BLUEJET.BO" target="_blank">BLUEJET.BO</a></td>
-      <td>Blue Jet Healthcare Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Small</td>
-      <td>3.35%</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NAZARA.BO/chart?p=NAZARA.BO" target="_blank">NAZARA.BO</a></td>
-      <td>Nazara Technologies Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Media, Entertainment & Publication</td>
-      <td>Small</td>
-      <td>3.09%</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/CLEAN.BO/chart?p=CLEAN.BO" target="_blank">CLEAN.BO</a></td>
-      <td>Clean Science And Technology Limited</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>2.95%</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/TRENT.BO/chart?p=TRENT.BO" target="_blank">TRENT.BO</a></td>
-      <td>Trent Ltd [Lakme Ltd]</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Services</td>
-      <td>Large</td>
-      <td>2.56%</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/GET&D.BO/chart?p=GET&D.BO" target="_blank">GET&D.BO</a></td>
-      <td>Ge T&D India Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>2.70%</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>2024-08-09</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/VGUARD.BO/chart?p=VGUARD.BO" target="_blank">VGUARD.BO</a></td>
-      <td>V-Guard Industries Ltd.</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Durables</td>
-      <td>Small</td>
-      <td>2.80%</td>
-    </tr>
-  </tbody>
-</table><br><br><br><br><br><h3>08-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th col-index=1 >Date</th>
-      <th col-index=2 >Ticker</th>
-      <th col-index=3 >Company</th>
-      <th col-index=4 >Sector</th>
-      <th col-index=5 >Industry</th>
-      <th col-index=6 >McapClass</th>
-      <th col-index=7 >Allocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DIACABS.BO/chart?p=DIACABS.BO" target="_blank">DIACABS.BO</a></td>
-      <td>Diamond Power Infrastructure Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Small</td>
-      <td>6.21%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SUZLON.BO/chart?p=SUZLON.BO" target="_blank">SUZLON.BO</a></td>
-      <td>Suzlon Energy Ltd.</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Mid</td>
-      <td>5.80%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SANSERA.BO/chart?p=SANSERA.BO" target="_blank">SANSERA.BO</a></td>
-      <td>Sansera Engineering Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Automobile and Auto Components</td>
-      <td>Small</td>
-      <td>5.28%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SUNTV.BO/chart?p=SUNTV.BO" target="_blank">SUNTV.BO</a></td>
-      <td>Sun Tv Network Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Media, Entertainment & Publication</td>
-      <td>Mid</td>
-      <td>5.27%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/COLPAL.BO/chart?p=COLPAL.BO" target="_blank">COLPAL.BO</a></td>
-      <td>Colgate-Palmolive (India) Ltd.</td>
-      <td>Consumer Defensive</td>
-      <td>Fast Moving Consumer Goods</td>
-      <td>Mid</td>
-      <td>4.27%</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DHANUKA.BO/chart?p=DHANUKA.BO" target="_blank">DHANUKA.BO</a></td>
-      <td>Dhanuka Agritech Ltd.</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>4.31%</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BIKAJI.BO/chart?p=BIKAJI.BO" target="_blank">BIKAJI.BO</a></td>
-      <td>Bikaji Foods International Limited</td>
-      <td>Consumer Defensive</td>
-      <td>Fast Moving Consumer Goods</td>
-      <td>Small</td>
-      <td>4.26%</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ZOMATO.BO/chart?p=ZOMATO.BO" target="_blank">ZOMATO.BO</a></td>
-      <td>Zomato Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Services</td>
-      <td>Large</td>
-      <td>4.28%</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/AFFLE.BO/chart?p=AFFLE.BO" target="_blank">AFFLE.BO</a></td>
-      <td>Affle (India) Limited</td>
-      <td>Technology</td>
-      <td>Information Technology</td>
-      <td>Small</td>
-      <td>4.12%</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FSL.BO/chart?p=FSL.BO" target="_blank">FSL.BO</a></td>
-      <td>Firstsource Solutions Ltd.</td>
-      <td>Services</td>
-      <td>Services</td>
-      <td>Small</td>
-      <td>4.04%</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/CERA.BO/chart?p=CERA.BO" target="_blank">CERA.BO</a></td>
-      <td>Cera Sanitaryware Ltd.</td>
-      <td>Consumer Cyclical</td>
-      <td>Consumer Durables</td>
-      <td>Small</td>
-      <td>3.19%</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/GLAXO.BO/chart?p=GLAXO.BO" target="_blank">GLAXO.BO</a></td>
-      <td>Glaxosmithkline Pharmaceuticals Ltd.</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>3.83%</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SYNGENE.BO/chart?p=SYNGENE.BO" target="_blank">SYNGENE.BO</a></td>
-      <td>Syngene International Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>3.88%</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/PFIZER.BO/chart?p=PFIZER.BO" target="_blank">PFIZER.BO</a></td>
-      <td>Pfizer Ltd.</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>3.60%</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ERIS.BO/chart?p=ERIS.BO" target="_blank">ERIS.BO</a></td>
-      <td>Eris Lifesciences Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Small</td>
-      <td>3.71%</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/KAYNES.BO/chart?p=KAYNES.BO" target="_blank">KAYNES.BO</a></td>
-      <td>Kaynes Technology India Limited</td>
-      <td>Industrials</td>
-      <td>Capital Goods</td>
-      <td>Small</td>
-      <td>3.51%</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HSCL.BO/chart?p=HSCL.BO" target="_blank">HSCL.BO</a></td>
-      <td>Himadri Speciality Chemical Ltd.</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Mid</td>
-      <td>3.74%</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/LUPIN.BO/chart?p=LUPIN.BO" target="_blank">LUPIN.BO</a></td>
-      <td>Lupin Ltd</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Mid</td>
-      <td>3.58%</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/STAR.BO/chart?p=STAR.BO" target="_blank">STAR.BO</a></td>
-      <td>Strides Pharma Science Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Small</td>
-      <td>3.62%</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/WELENT.BO/chart?p=WELENT.BO" target="_blank">WELENT.BO</a></td>
-      <td>Welspun Enterprises Limited</td>
-      <td>Industrials</td>
-      <td>Construction</td>
-      <td>Small</td>
-      <td>3.70%</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/SANDHAR.BO/chart?p=SANDHAR.BO" target="_blank">SANDHAR.BO</a></td>
-      <td>Sandhar Technologies Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Automobile and Auto Components</td>
-      <td>Small</td>
-      <td>3.42%</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NTPC.BO/chart?p=NTPC.BO" target="_blank">NTPC.BO</a></td>
-      <td>Ntpc Limited</td>
-      <td>Utilities</td>
-      <td>Power</td>
-      <td>Large</td>
-      <td>3.22%</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BLUEJET.BO/chart?p=BLUEJET.BO" target="_blank">BLUEJET.BO</a></td>
-      <td>Blue Jet Healthcare Limited</td>
-      <td>Healthcare</td>
-      <td>Healthcare</td>
-      <td>Small</td>
-      <td>3.19%</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ROSSARI.BO/chart?p=ROSSARI.BO" target="_blank">ROSSARI.BO</a></td>
-      <td>Rossari Biotech Limited</td>
-      <td>Basic Materials</td>
-      <td>Chemicals</td>
-      <td>Small</td>
-      <td>3.01%</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>2024-08-08</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/NAZARA.BO/chart?p=NAZARA.BO" target="_blank">NAZARA.BO</a></td>
-      <td>Nazara Technologies Limited</td>
-      <td>Consumer Cyclical</td>
-      <td>Media, Entertainment & Publication</td>
-      <td>Small</td>
-      <td>2.96%</td>
     </tr>
   </tbody>
 </table><br><br><br><br><br>
