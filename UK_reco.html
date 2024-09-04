@@ -1,7 +1,537 @@
 <link rel="stylesheet" href="files/mystyle.css">
 <h3>UK Reco Page </h3>
 
-<h3>30-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
+<h3>03-Sep-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BVIC.L/chart?p=BVIC.L" target="_blank">BVIC.L</a></td>
+      <td>Britvic Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Beverages</td>
+      <td>Mid</td>
+      <td>19.06%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KWS.L/chart?p=KWS.L" target="_blank">KWS.L</a></td>
+      <td>Keywords Studios Plc</td>
+      <td>Consumer Cyclical</td>
+      <td>Leisure Goods</td>
+      <td>Mid</td>
+      <td>13.23%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ERNA.L/chart?p=ERNA.L" target="_blank">ERNA.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>8.15%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IBTE.L/chart?p=IBTE.L" target="_blank">IBTE.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Mid</td>
+      <td>5.57%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IUAA.L/chart?p=IUAA.L" target="_blank">IUAA.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Mid</td>
+      <td>4.17%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FLOA.L/chart?p=FLOA.L" target="_blank">FLOA.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>3.84%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IBTG.L/chart?p=IBTG.L" target="_blank">IBTG.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>3.72%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IMB.L/chart?p=IMB.L" target="_blank">IMB.L</a></td>
+      <td>Imperial Brands Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Tobacco</td>
+      <td>Large</td>
+      <td>3.55%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IWDP.L/chart?p=IWDP.L" target="_blank">IWDP.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>3.24%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FAN.L/chart?p=FAN.L" target="_blank">FAN.L</a></td>
+      <td>Volution Group Plc</td>
+      <td>Real Estate</td>
+      <td>Construction and Materials</td>
+      <td>Small</td>
+      <td>3.30%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CRN.L/chart?p=CRN.L" target="_blank">CRN.L</a></td>
+      <td>Cairn Homes Plc</td>
+      <td>Real Estate</td>
+      <td>Household Goods and Home Construction</td>
+      <td>Small</td>
+      <td>3.01%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BNZL.L/chart?p=BNZL.L" target="_blank">BNZL.L</a></td>
+      <td>Bunzl Plc</td>
+      <td>Industrials</td>
+      <td>General Industrials</td>
+      <td>Large</td>
+      <td>2.89%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BCG.L/chart?p=BCG.L" target="_blank">BCG.L</a></td>
+      <td>Baltic Classifieds Group Plc</td>
+      <td>Technology</td>
+      <td>Software and Computer Services</td>
+      <td>Small</td>
+      <td>2.78%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/AGGU.L/chart?p=AGGU.L" target="_blank">AGGU.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Mid</td>
+      <td>2.65%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JTC.L/chart?p=JTC.L" target="_blank">JTC.L</a></td>
+      <td>Jtc Plc</td>
+      <td>Financial</td>
+      <td>Investment Banking and Brokerage Services</td>
+      <td>Mid</td>
+      <td>2.47%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CWK.L/chart?p=CWK.L" target="_blank">CWK.L</a></td>
+      <td>Cranswick Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Food Producers</td>
+      <td>Mid</td>
+      <td>1.93%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/COST.L/chart?p=COST.L" target="_blank">COST.L</a></td>
+      <td>Costain Group Plc</td>
+      <td>Industrials</td>
+      <td>Industrial Support Services</td>
+      <td>Small</td>
+      <td>2.19%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GNC.L/chart?p=GNC.L" target="_blank">GNC.L</a></td>
+      <td>Greencore Group Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Food Producers</td>
+      <td>Small</td>
+      <td>2.03%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/AUTO.L/chart?p=AUTO.L" target="_blank">AUTO.L</a></td>
+      <td>Auto Trader Group Plc</td>
+      <td>Technology</td>
+      <td>Software and Computer Services</td>
+      <td>Large</td>
+      <td>1.93%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BOCH.L/chart?p=BOCH.L" target="_blank">BOCH.L</a></td>
+      <td>Bank Of Cyprus Holdings Public Limited Company</td>
+      <td>Financial</td>
+      <td>Banks</td>
+      <td>Mid</td>
+      <td>1.92%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IUFS.L/chart?p=IUFS.L" target="_blank">IUFS.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>1.81%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/MKS.L/chart?p=MKS.L" target="_blank">MKS.L</a></td>
+      <td>Marks And Spencer Group Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Personal Care, Drug and Grocery Stores</td>
+      <td>Mid</td>
+      <td>1.73%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GFTU.L/chart?p=GFTU.L" target="_blank">GFTU.L</a></td>
+      <td>Grafton Group Plc</td>
+      <td>Industrials</td>
+      <td>Industrial Support Services</td>
+      <td>Mid</td>
+      <td>1.64%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IBST.L/chart?p=IBST.L" target="_blank">IBST.L</a></td>
+      <td>Ibstock Plc</td>
+      <td>Real Estate</td>
+      <td>Construction and Materials</td>
+      <td>Small</td>
+      <td>1.61%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-09-03</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BBY.L/chart?p=BBY.L" target="_blank">BBY.L</a></td>
+      <td>Balfour Beatty Plc</td>
+      <td>Real Estate</td>
+      <td>Construction and Materials</td>
+      <td>Mid</td>
+      <td>1.58%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>02-Sep-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BVIC.L/chart?p=BVIC.L" target="_blank">BVIC.L</a></td>
+      <td>Britvic Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Beverages</td>
+      <td>Mid</td>
+      <td>19.05%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KWS.L/chart?p=KWS.L" target="_blank">KWS.L</a></td>
+      <td>Keywords Studios Plc</td>
+      <td>Consumer Cyclical</td>
+      <td>Leisure Goods</td>
+      <td>Mid</td>
+      <td>12.97%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ERNA.L/chart?p=ERNA.L" target="_blank">ERNA.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>8.20%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IBTE.L/chart?p=IBTE.L" target="_blank">IBTE.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Mid</td>
+      <td>5.18%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IUAA.L/chart?p=IUAA.L" target="_blank">IUAA.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Mid</td>
+      <td>3.90%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FLOA.L/chart?p=FLOA.L" target="_blank">FLOA.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>3.68%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IBTG.L/chart?p=IBTG.L" target="_blank">IBTG.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>3.45%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/IMB.L/chart?p=IMB.L" target="_blank">IMB.L</a></td>
+      <td>Imperial Brands Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Tobacco</td>
+      <td>Large</td>
+      <td>3.31%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/HYGU.L/chart?p=HYGU.L" target="_blank">HYGU.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Small</td>
+      <td>3.20%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FAN.L/chart?p=FAN.L" target="_blank">FAN.L</a></td>
+      <td>Volution Group Plc</td>
+      <td>Real Estate</td>
+      <td>Construction and Materials</td>
+      <td>Small</td>
+      <td>3.11%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CRN.L/chart?p=CRN.L" target="_blank">CRN.L</a></td>
+      <td>Cairn Homes Plc</td>
+      <td>Real Estate</td>
+      <td>Household Goods and Home Construction</td>
+      <td>Small</td>
+      <td>2.79%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/MTW.L/chart?p=MTW.L" target="_blank">MTW.L</a></td>
+      <td>Mattioli Woods Plc</td>
+      <td>Financial</td>
+      <td>Investment Banking and Brokerage Services</td>
+      <td>Small</td>
+      <td>2.67%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/AGGU.L/chart?p=AGGU.L" target="_blank">AGGU.L</a></td>
+      <td>Ishares</td>
+      <td>Financial</td>
+      <td>Open End and Miscellaneous Investment Vehicles</td>
+      <td>Mid</td>
+      <td>2.65%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BNZL.L/chart?p=BNZL.L" target="_blank">BNZL.L</a></td>
+      <td>Bunzl Plc</td>
+      <td>Industrials</td>
+      <td>General Industrials</td>
+      <td>Large</td>
+      <td>2.51%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BAG.L/chart?p=BAG.L" target="_blank">BAG.L</a></td>
+      <td>Barr (A.G.) Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Beverages</td>
+      <td>Small</td>
+      <td>2.51%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BCG.L/chart?p=BCG.L" target="_blank">BCG.L</a></td>
+      <td>Baltic Classifieds Group Plc</td>
+      <td>Technology</td>
+      <td>Software and Computer Services</td>
+      <td>Small</td>
+      <td>2.55%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/DNLM.L/chart?p=DNLM.L" target="_blank">DNLM.L</a></td>
+      <td>Dunelm Group Plc</td>
+      <td>Consumer Cyclical</td>
+      <td>Retailers</td>
+      <td>Mid</td>
+      <td>2.40%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JTC.L/chart?p=JTC.L" target="_blank">JTC.L</a></td>
+      <td>Jtc Plc</td>
+      <td>Financial</td>
+      <td>Investment Banking and Brokerage Services</td>
+      <td>Mid</td>
+      <td>2.39%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BMY.L/chart?p=BMY.L" target="_blank">BMY.L</a></td>
+      <td>Bloomsbury Publishing Plc</td>
+      <td>Communication Services</td>
+      <td>Media</td>
+      <td>Small</td>
+      <td>2.29%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KGF.L/chart?p=KGF.L" target="_blank">KGF.L</a></td>
+      <td>Kingfisher Plc</td>
+      <td>Consumer Cyclical</td>
+      <td>Retailers</td>
+      <td>Mid</td>
+      <td>2.16%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CWK.L/chart?p=CWK.L" target="_blank">CWK.L</a></td>
+      <td>Cranswick Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Food Producers</td>
+      <td>Mid</td>
+      <td>1.94%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/COST.L/chart?p=COST.L" target="_blank">COST.L</a></td>
+      <td>Costain Group Plc</td>
+      <td>Industrials</td>
+      <td>Industrial Support Services</td>
+      <td>Small</td>
+      <td>1.90%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GNC.L/chart?p=GNC.L" target="_blank">GNC.L</a></td>
+      <td>Greencore Group Plc</td>
+      <td>Consumer Defensive</td>
+      <td>Food Producers</td>
+      <td>Small</td>
+      <td>1.87%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/AUTO.L/chart?p=AUTO.L" target="_blank">AUTO.L</a></td>
+      <td>Auto Trader Group Plc</td>
+      <td>Technology</td>
+      <td>Software and Computer Services</td>
+      <td>Large</td>
+      <td>1.68%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-09-02</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BOCH.L/chart?p=BOCH.L" target="_blank">BOCH.L</a></td>
+      <td>Bank Of Cyprus Holdings Public Limited Company</td>
+      <td>Financial</td>
+      <td>Banks</td>
+      <td>Mid</td>
+      <td>1.65%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>30-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
   <thead>
     <tr style="text-align: center;">
       <th></th>
@@ -264,536 +794,6 @@
       <td>Industrial Support Services</td>
       <td>Small</td>
       <td>1.78%</td>
-    </tr>
-  </tbody>
-</table><br><br><br><br><br><h3>29-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th col-index=1 >Date</th>
-      <th col-index=2 >Ticker</th>
-      <th col-index=3 >Company</th>
-      <th col-index=4 >Sector</th>
-      <th col-index=5 >Industry</th>
-      <th col-index=6 >McapClass</th>
-      <th col-index=7 >Allocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BVIC.L/chart?p=BVIC.L" target="_blank">BVIC.L</a></td>
-      <td>Britvic Plc</td>
-      <td>Consumer Defensive</td>
-      <td>Beverages</td>
-      <td>Mid</td>
-      <td>18.83%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/KWS.L/chart?p=KWS.L" target="_blank">KWS.L</a></td>
-      <td>Keywords Studios Plc</td>
-      <td>Consumer Cyclical</td>
-      <td>Leisure Goods</td>
-      <td>Mid</td>
-      <td>13.38%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ERNA.L/chart?p=ERNA.L" target="_blank">ERNA.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Small</td>
-      <td>8.70%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IBTE.L/chart?p=IBTE.L" target="_blank">IBTE.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>4.65%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FLOA.L/chart?p=FLOA.L" target="_blank">FLOA.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Small</td>
-      <td>4.43%</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/AGGU.L/chart?p=AGGU.L" target="_blank">AGGU.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>3.51%</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IMB.L/chart?p=IMB.L" target="_blank">IMB.L</a></td>
-      <td>Imperial Brands Plc</td>
-      <td>Consumer Defensive</td>
-      <td>Tobacco</td>
-      <td>Large</td>
-      <td>3.06%</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/AMS.L/chart?p=AMS.L" target="_blank">AMS.L</a></td>
-      <td>Advanced Medical Solutions Group Plc</td>
-      <td>Healthcare</td>
-      <td>Medical Equipment and Services</td>
-      <td>Small</td>
-      <td>2.99%</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FAN.L/chart?p=FAN.L" target="_blank">FAN.L</a></td>
-      <td>Volution Group Plc</td>
-      <td>Real Estate</td>
-      <td>Construction and Materials</td>
-      <td>Small</td>
-      <td>2.88%</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IUHC.L/chart?p=IUHC.L" target="_blank">IUHC.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>2.90%</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IDS.L/chart?p=IDS.L" target="_blank">IDS.L</a></td>
-      <td>International Distribution Services Plc</td>
-      <td>Industrials</td>
-      <td>Industrial Transportation</td>
-      <td>Mid</td>
-      <td>2.71%</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/CRN.L/chart?p=CRN.L" target="_blank">CRN.L</a></td>
-      <td>Cairn Homes Plc</td>
-      <td>Real Estate</td>
-      <td>Household Goods and Home Construction</td>
-      <td>Small</td>
-      <td>2.60%</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BAG.L/chart?p=BAG.L" target="_blank">BAG.L</a></td>
-      <td>Barr (A.G.) Plc</td>
-      <td>Consumer Defensive</td>
-      <td>Beverages</td>
-      <td>Small</td>
-      <td>2.48%</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BMY.L/chart?p=BMY.L" target="_blank">BMY.L</a></td>
-      <td>Bloomsbury Publishing Plc</td>
-      <td>Communication Services</td>
-      <td>Media</td>
-      <td>Small</td>
-      <td>2.49%</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BCG.L/chart?p=BCG.L" target="_blank">BCG.L</a></td>
-      <td>Baltic Classifieds Group Plc</td>
-      <td>Technology</td>
-      <td>Software and Computer Services</td>
-      <td>Small</td>
-      <td>2.42%</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/JTC.L/chart?p=JTC.L" target="_blank">JTC.L</a></td>
-      <td>Jtc Plc</td>
-      <td>Financial</td>
-      <td>Investment Banking and Brokerage Services</td>
-      <td>Mid</td>
-      <td>2.38%</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/DNLM.L/chart?p=DNLM.L" target="_blank">DNLM.L</a></td>
-      <td>Dunelm Group Plc</td>
-      <td>Consumer Cyclical</td>
-      <td>Retailers</td>
-      <td>Mid</td>
-      <td>2.28%</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/MTW.L/chart?p=MTW.L" target="_blank">MTW.L</a></td>
-      <td>Mattioli Woods Plc</td>
-      <td>Financial</td>
-      <td>Investment Banking and Brokerage Services</td>
-      <td>Small</td>
-      <td>2.35%</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FDP.L/chart?p=FDP.L" target="_blank">FDP.L</a></td>
-      <td>Fd Technologies Public Limited Company</td>
-      <td>Technology</td>
-      <td>Software and Computer Services</td>
-      <td>Small</td>
-      <td>2.21%</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BNZL.L/chart?p=BNZL.L" target="_blank">BNZL.L</a></td>
-      <td>Bunzl Plc</td>
-      <td>Industrials</td>
-      <td>General Industrials</td>
-      <td>Large</td>
-      <td>2.16%</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/CBKD.L/chart?p=CBKD.L" target="_blank">CBKD.L</a></td>
-      <td>Commercial International Bank (Egypt) S.A.E.</td>
-      <td>Financial</td>
-      <td>Banks</td>
-      <td>Mid</td>
-      <td>2.18%</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/KGF.L/chart?p=KGF.L" target="_blank">KGF.L</a></td>
-      <td>Kingfisher Plc</td>
-      <td>Consumer Cyclical</td>
-      <td>Retailers</td>
-      <td>Mid</td>
-      <td>2.15%</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/HEAL.L/chart?p=HEAL.L" target="_blank">HEAL.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Small</td>
-      <td>2.16%</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ADM.L/chart?p=ADM.L" target="_blank">ADM.L</a></td>
-      <td>Admiral Group Plc</td>
-      <td>Financial</td>
-      <td>Non-life Insurance</td>
-      <td>Large</td>
-      <td>2.07%</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>2024-08-29</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FRAN.L/chart?p=FRAN.L" target="_blank">FRAN.L</a></td>
-      <td>Franchise Brands Plc</td>
-      <td>Industrials</td>
-      <td>Industrial Support Services</td>
-      <td>Small</td>
-      <td>2.05%</td>
-    </tr>
-  </tbody>
-</table><br><br><br><br><br><h3>28-Aug-2024</h3><table border="1" class="dataframe" id="reco_table">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th col-index=1 >Date</th>
-      <th col-index=2 >Ticker</th>
-      <th col-index=3 >Company</th>
-      <th col-index=4 >Sector</th>
-      <th col-index=5 >Industry</th>
-      <th col-index=6 >McapClass</th>
-      <th col-index=7 >Allocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BVIC.L/chart?p=BVIC.L" target="_blank">BVIC.L</a></td>
-      <td>Britvic Plc</td>
-      <td>Consumer Defensive</td>
-      <td>Beverages</td>
-      <td>Mid</td>
-      <td>16.22%</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/KWS.L/chart?p=KWS.L" target="_blank">KWS.L</a></td>
-      <td>Keywords Studios Plc</td>
-      <td>Consumer Cyclical</td>
-      <td>Leisure Goods</td>
-      <td>Mid</td>
-      <td>12.38%</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/ERNA.L/chart?p=ERNA.L" target="_blank">ERNA.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Small</td>
-      <td>8.20%</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IBTE.L/chart?p=IBTE.L" target="_blank">IBTE.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>4.88%</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IMBA.L/chart?p=IMBA.L" target="_blank">IMBA.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Small</td>
-      <td>3.97%</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/MOON.L/chart?p=MOON.L" target="_blank">MOON.L</a></td>
-      <td>Moonpig Group Plc</td>
-      <td>Consumer Cyclical</td>
-      <td>Retailers</td>
-      <td>Small</td>
-      <td>3.76%</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/JUST.L/chart?p=JUST.L" target="_blank">JUST.L</a></td>
-      <td>Just Group Plc</td>
-      <td>Financial</td>
-      <td>Life Insurance</td>
-      <td>Small</td>
-      <td>3.61%</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/AGGU.L/chart?p=AGGU.L" target="_blank">AGGU.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>3.35%</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IGG.L/chart?p=IGG.L" target="_blank">IGG.L</a></td>
-      <td>Ig Group Holdings Plc</td>
-      <td>Financial</td>
-      <td>Investment Banking and Brokerage Services</td>
-      <td>Mid</td>
-      <td>3.20%</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BPT.L/chart?p=BPT.L" target="_blank">BPT.L</a></td>
-      <td>Bridgepoint Group Plc</td>
-      <td>Financial</td>
-      <td>Investment Banking and Brokerage Services</td>
-      <td>Mid</td>
-      <td>3.22%</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/MARS.L/chart?p=MARS.L" target="_blank">MARS.L</a></td>
-      <td>Marston'S Plc</td>
-      <td>Consumer Cyclical</td>
-      <td>Travel and Leisure</td>
-      <td>Small</td>
-      <td>3.11%</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IMB.L/chart?p=IMB.L" target="_blank">IMB.L</a></td>
-      <td>Imperial Brands Plc</td>
-      <td>Consumer Defensive</td>
-      <td>Tobacco</td>
-      <td>Large</td>
-      <td>2.83%</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BCPT.L/chart?p=BCPT.L" target="_blank">BCPT.L</a></td>
-      <td>Balanced Commercial Property Trust Limited</td>
-      <td>Real Estate</td>
-      <td>Real Estate Investment Trusts</td>
-      <td>Small</td>
-      <td>2.91%</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/AMS.L/chart?p=AMS.L" target="_blank">AMS.L</a></td>
-      <td>Advanced Medical Solutions Group Plc</td>
-      <td>Healthcare</td>
-      <td>Medical Equipment and Services</td>
-      <td>Small</td>
-      <td>2.73%</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FAN.L/chart?p=FAN.L" target="_blank">FAN.L</a></td>
-      <td>Volution Group Plc</td>
-      <td>Real Estate</td>
-      <td>Construction and Materials</td>
-      <td>Small</td>
-      <td>2.59%</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IDS.L/chart?p=IDS.L" target="_blank">IDS.L</a></td>
-      <td>International Distribution Services Plc</td>
-      <td>Industrials</td>
-      <td>Industrial Transportation</td>
-      <td>Mid</td>
-      <td>2.55%</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IUHC.L/chart?p=IUHC.L" target="_blank">IUHC.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>2.55%</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BBH.L/chart?p=BBH.L" target="_blank">BBH.L</a></td>
-      <td>Bellevue Healthcare Trust Plc</td>
-      <td>Financial</td>
-      <td>Closed End Investments</td>
-      <td>Small</td>
-      <td>2.41%</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BMY.L/chart?p=BMY.L" target="_blank">BMY.L</a></td>
-      <td>Bloomsbury Publishing Plc</td>
-      <td>Communication Services</td>
-      <td>Media</td>
-      <td>Small</td>
-      <td>2.37%</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/IHYU.L/chart?p=IHYU.L" target="_blank">IHYU.L</a></td>
-      <td>Ishares</td>
-      <td>Financial</td>
-      <td>Open End and Miscellaneous Investment Vehicles</td>
-      <td>Mid</td>
-      <td>2.28%</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BAG.L/chart?p=BAG.L" target="_blank">BAG.L</a></td>
-      <td>Barr (A.G.) Plc</td>
-      <td>Consumer Defensive</td>
-      <td>Beverages</td>
-      <td>Small</td>
-      <td>2.26%</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/CRN.L/chart?p=CRN.L" target="_blank">CRN.L</a></td>
-      <td>Cairn Homes Plc</td>
-      <td>Real Estate</td>
-      <td>Household Goods and Home Construction</td>
-      <td>Small</td>
-      <td>2.26%</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/BWY.L/chart?p=BWY.L" target="_blank">BWY.L</a></td>
-      <td>Bellway Plc</td>
-      <td>Real Estate</td>
-      <td>Household Goods and Home Construction</td>
-      <td>Mid</td>
-      <td>2.13%</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/JTC.L/chart?p=JTC.L" target="_blank">JTC.L</a></td>
-      <td>Jtc Plc</td>
-      <td>Financial</td>
-      <td>Investment Banking and Brokerage Services</td>
-      <td>Mid</td>
-      <td>2.16%</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>2024-08-28</td>
-      <td><a href="http://uk.finance.yahoo.com/quote/FDP.L/chart?p=FDP.L" target="_blank">FDP.L</a></td>
-      <td>Fd Technologies Public Limited Company</td>
-      <td>Technology</td>
-      <td>Software and Computer Services</td>
-      <td>Small</td>
-      <td>2.05%</td>
     </tr>
   </tbody>
 </table><br><br><br><br><br>
