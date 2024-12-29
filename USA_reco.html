@@ -1,3 +1,799 @@
 <link rel="stylesheet" href="files/mystyle.css">
 <h3>USA Reco Page </h3>
 
+<h3>27-Dec-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/B/chart?p=B" target="_blank">B</a></td>
+      <td>Barnes Group Inc</td>
+      <td>Industrials</td>
+      <td>Specialty Industrial Machinery</td>
+      <td>Mid</td>
+      <td>11.29%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ALTR/chart?p=ALTR" target="_blank">ALTR</a></td>
+      <td>Altair Engineering Inc</td>
+      <td>Technology</td>
+      <td>Software - Infrastructure</td>
+      <td>Mid</td>
+      <td>5.99%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RELY/chart?p=RELY" target="_blank">RELY</a></td>
+      <td>Remitly Global Inc</td>
+      <td>Technology</td>
+      <td>Software - Infrastructure</td>
+      <td>Mid</td>
+      <td>5.91%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/EAT/chart?p=EAT" target="_blank">EAT</a></td>
+      <td>Brinker International, Inc</td>
+      <td>Consumer Cyclical</td>
+      <td>Restaurants</td>
+      <td>Mid</td>
+      <td>5.29%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/V/chart?p=V" target="_blank">V</a></td>
+      <td>Visa Inc</td>
+      <td>Financial</td>
+      <td>Credit Services</td>
+      <td>Mega</td>
+      <td>4.12%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ESLT/chart?p=ESLT" target="_blank">ESLT</a></td>
+      <td>Elbit Systems Ltd</td>
+      <td>Industrials</td>
+      <td>Aerospace & Defense</td>
+      <td>Large</td>
+      <td>4.10%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JBT/chart?p=JBT" target="_blank">JBT</a></td>
+      <td>John Bean Technologies Corp</td>
+      <td>Industrials</td>
+      <td>Specialty Industrial Machinery</td>
+      <td>Mid</td>
+      <td>4.04%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RKLB/chart?p=RKLB" target="_blank">RKLB</a></td>
+      <td>Rocket Lab USA Inc</td>
+      <td>Industrials</td>
+      <td>Aerospace & Defense</td>
+      <td>Mid</td>
+      <td>3.98%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FOX/chart?p=FOX" target="_blank">FOX</a></td>
+      <td>Fox Corporation</td>
+      <td>Communication Services</td>
+      <td>Entertainment</td>
+      <td>Large</td>
+      <td>3.90%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GRND/chart?p=GRND" target="_blank">GRND</a></td>
+      <td>Grindr Inc</td>
+      <td>Technology</td>
+      <td>Software - Application</td>
+      <td>Mid</td>
+      <td>3.89%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/TARS/chart?p=TARS" target="_blank">TARS</a></td>
+      <td>Tarsus Pharmaceuticals Inc</td>
+      <td>Healthcare</td>
+      <td>Biotechnology</td>
+      <td>Mid</td>
+      <td>3.85%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WRBY/chart?p=WRBY" target="_blank">WRBY</a></td>
+      <td>Warby Parker Inc</td>
+      <td>Healthcare</td>
+      <td>Medical Instruments & Supplies</td>
+      <td>Mid</td>
+      <td>3.82%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BBAR/chart?p=BBAR" target="_blank">BBAR</a></td>
+      <td>BBVA Argentina ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.79%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FOXA/chart?p=FOXA" target="_blank">FOXA</a></td>
+      <td>Fox Corporation</td>
+      <td>Communication Services</td>
+      <td>Entertainment</td>
+      <td>Large</td>
+      <td>3.57%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VRNA/chart?p=VRNA" target="_blank">VRNA</a></td>
+      <td>Verona Pharma Plc ADR</td>
+      <td>Healthcare</td>
+      <td>Biotechnology</td>
+      <td>Mid</td>
+      <td>3.44%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/UI/chart?p=UI" target="_blank">UI</a></td>
+      <td>Ubiquiti Inc</td>
+      <td>Technology</td>
+      <td>Communication Equipment</td>
+      <td>Large</td>
+      <td>3.31%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GEV/chart?p=GEV" target="_blank">GEV</a></td>
+      <td>GE Vernova Inc</td>
+      <td>Utilities</td>
+      <td>Utilities - Renewable</td>
+      <td>Large</td>
+      <td>3.28%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WAY/chart?p=WAY" target="_blank">WAY</a></td>
+      <td>Waystar Holding Corp</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Mid</td>
+      <td>3.16%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BMA/chart?p=BMA" target="_blank">BMA</a></td>
+      <td>Banco Macro S.A. ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.14%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JBL/chart?p=JBL" target="_blank">JBL</a></td>
+      <td>Jabil Inc</td>
+      <td>Technology</td>
+      <td>Electronic Components</td>
+      <td>Large</td>
+      <td>3.01%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WGS/chart?p=WGS" target="_blank">WGS</a></td>
+      <td>GeneDx Holdings Corp</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Mid</td>
+      <td>2.66%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/SLM/chart?p=SLM" target="_blank">SLM</a></td>
+      <td>SLM Corp</td>
+      <td>Financial</td>
+      <td>Credit Services</td>
+      <td>Mid</td>
+      <td>2.67%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FUN/chart?p=FUN" target="_blank">FUN</a></td>
+      <td>Six Flags Entertainment Corp</td>
+      <td>Consumer Cyclical</td>
+      <td>Leisure</td>
+      <td>Mid</td>
+      <td>2.63%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CBZ/chart?p=CBZ" target="_blank">CBZ</a></td>
+      <td>Cbiz Inc</td>
+      <td>Industrials</td>
+      <td>Specialty Business Services</td>
+      <td>Mid</td>
+      <td>2.61%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-12-27</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/DOCS/chart?p=DOCS" target="_blank">DOCS</a></td>
+      <td>Doximity Inc</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Large</td>
+      <td>2.56%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>26-Dec-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/B/chart?p=B" target="_blank">B</a></td>
+      <td>Barnes Group Inc</td>
+      <td>Industrials</td>
+      <td>Specialty Industrial Machinery</td>
+      <td>Mid</td>
+      <td>11.29%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ALTR/chart?p=ALTR" target="_blank">ALTR</a></td>
+      <td>Altair Engineering Inc</td>
+      <td>Technology</td>
+      <td>Software - Infrastructure</td>
+      <td>Mid</td>
+      <td>6.08%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RELY/chart?p=RELY" target="_blank">RELY</a></td>
+      <td>Remitly Global Inc</td>
+      <td>Technology</td>
+      <td>Software - Infrastructure</td>
+      <td>Mid</td>
+      <td>5.77%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/EAT/chart?p=EAT" target="_blank">EAT</a></td>
+      <td>Brinker International, Inc</td>
+      <td>Consumer Cyclical</td>
+      <td>Restaurants</td>
+      <td>Mid</td>
+      <td>5.27%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ESLT/chart?p=ESLT" target="_blank">ESLT</a></td>
+      <td>Elbit Systems Ltd</td>
+      <td>Industrials</td>
+      <td>Aerospace & Defense</td>
+      <td>Large</td>
+      <td>4.06%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/V/chart?p=V" target="_blank">V</a></td>
+      <td>Visa Inc</td>
+      <td>Financial</td>
+      <td>Credit Services</td>
+      <td>Mega</td>
+      <td>4.02%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RKLB/chart?p=RKLB" target="_blank">RKLB</a></td>
+      <td>Rocket Lab USA Inc</td>
+      <td>Industrials</td>
+      <td>Aerospace & Defense</td>
+      <td>Mid</td>
+      <td>3.96%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/TARS/chart?p=TARS" target="_blank">TARS</a></td>
+      <td>Tarsus Pharmaceuticals Inc</td>
+      <td>Healthcare</td>
+      <td>Biotechnology</td>
+      <td>Mid</td>
+      <td>3.87%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FOX/chart?p=FOX" target="_blank">FOX</a></td>
+      <td>Fox Corporation</td>
+      <td>Communication Services</td>
+      <td>Entertainment</td>
+      <td>Large</td>
+      <td>3.82%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GRND/chart?p=GRND" target="_blank">GRND</a></td>
+      <td>Grindr Inc</td>
+      <td>Technology</td>
+      <td>Software - Application</td>
+      <td>Mid</td>
+      <td>3.82%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WK/chart?p=WK" target="_blank">WK</a></td>
+      <td>Workiva Inc</td>
+      <td>Technology</td>
+      <td>Software - Application</td>
+      <td>Mid</td>
+      <td>3.73%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WRBY/chart?p=WRBY" target="_blank">WRBY</a></td>
+      <td>Warby Parker Inc</td>
+      <td>Healthcare</td>
+      <td>Medical Instruments & Supplies</td>
+      <td>Mid</td>
+      <td>3.71%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BBAR/chart?p=BBAR" target="_blank">BBAR</a></td>
+      <td>BBVA Argentina ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.64%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/AS/chart?p=AS" target="_blank">AS</a></td>
+      <td>Amer Sports Inc</td>
+      <td>Consumer Cyclical</td>
+      <td>Leisure</td>
+      <td>Large</td>
+      <td>3.62%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FOXA/chart?p=FOXA" target="_blank">FOXA</a></td>
+      <td>Fox Corporation</td>
+      <td>Communication Services</td>
+      <td>Entertainment</td>
+      <td>Large</td>
+      <td>3.48%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VRNA/chart?p=VRNA" target="_blank">VRNA</a></td>
+      <td>Verona Pharma Plc ADR</td>
+      <td>Healthcare</td>
+      <td>Biotechnology</td>
+      <td>Mid</td>
+      <td>3.33%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/UI/chart?p=UI" target="_blank">UI</a></td>
+      <td>Ubiquiti Inc</td>
+      <td>Technology</td>
+      <td>Communication Equipment</td>
+      <td>Large</td>
+      <td>3.26%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CIEN/chart?p=CIEN" target="_blank">CIEN</a></td>
+      <td>CIENA Corp</td>
+      <td>Technology</td>
+      <td>Communication Equipment</td>
+      <td>Large</td>
+      <td>3.22%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BMA/chart?p=BMA" target="_blank">BMA</a></td>
+      <td>Banco Macro S.A. ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.15%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WAY/chart?p=WAY" target="_blank">WAY</a></td>
+      <td>Waystar Holding Corp</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Mid</td>
+      <td>3.06%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JBL/chart?p=JBL" target="_blank">JBL</a></td>
+      <td>Jabil Inc</td>
+      <td>Technology</td>
+      <td>Electronic Components</td>
+      <td>Large</td>
+      <td>2.93%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CRK/chart?p=CRK" target="_blank">CRK</a></td>
+      <td>Comstock Resources, Inc</td>
+      <td>Energy</td>
+      <td>Oil & Gas E&P</td>
+      <td>Mid</td>
+      <td>2.91%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WGS/chart?p=WGS" target="_blank">WGS</a></td>
+      <td>GeneDx Holdings Corp</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Mid</td>
+      <td>2.78%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/SLM/chart?p=SLM" target="_blank">SLM</a></td>
+      <td>SLM Corp</td>
+      <td>Financial</td>
+      <td>Credit Services</td>
+      <td>Mid</td>
+      <td>2.60%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-12-26</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CBZ/chart?p=CBZ" target="_blank">CBZ</a></td>
+      <td>Cbiz Inc</td>
+      <td>Industrials</td>
+      <td>Specialty Business Services</td>
+      <td>Mid</td>
+      <td>2.59%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><h3>24-Dec-2024</h3><table border="1" class="dataframe" id="reco_table">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th col-index=1 >Date</th>
+      <th col-index=2 >Ticker</th>
+      <th col-index=3 >Company</th>
+      <th col-index=4 >Sector</th>
+      <th col-index=5 >Industry</th>
+      <th col-index=6 >McapClass</th>
+      <th col-index=7 >Allocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/B/chart?p=B" target="_blank">B</a></td>
+      <td>Barnes Group Inc</td>
+      <td>Industrials</td>
+      <td>Specialty Industrial Machinery</td>
+      <td>Mid</td>
+      <td>11.73%</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ALTR/chart?p=ALTR" target="_blank">ALTR</a></td>
+      <td>Altair Engineering Inc</td>
+      <td>Technology</td>
+      <td>Software - Infrastructure</td>
+      <td>Mid</td>
+      <td>6.05%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RELY/chart?p=RELY" target="_blank">RELY</a></td>
+      <td>Remitly Global Inc</td>
+      <td>Technology</td>
+      <td>Software - Infrastructure</td>
+      <td>Mid</td>
+      <td>5.56%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/EAT/chart?p=EAT" target="_blank">EAT</a></td>
+      <td>Brinker International, Inc</td>
+      <td>Consumer Cyclical</td>
+      <td>Restaurants</td>
+      <td>Mid</td>
+      <td>5.40%</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ALK/chart?p=ALK" target="_blank">ALK</a></td>
+      <td>Alaska Air Group Inc</td>
+      <td>Industrials</td>
+      <td>Airlines</td>
+      <td>Mid</td>
+      <td>4.45%</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/ESLT/chart?p=ESLT" target="_blank">ESLT</a></td>
+      <td>Elbit Systems Ltd</td>
+      <td>Industrials</td>
+      <td>Aerospace & Defense</td>
+      <td>Large</td>
+      <td>4.28%</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/RKLB/chart?p=RKLB" target="_blank">RKLB</a></td>
+      <td>Rocket Lab USA Inc</td>
+      <td>Industrials</td>
+      <td>Aerospace & Defense</td>
+      <td>Mid</td>
+      <td>4.08%</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/V/chart?p=V" target="_blank">V</a></td>
+      <td>Visa Inc</td>
+      <td>Financial</td>
+      <td>Credit Services</td>
+      <td>Mega</td>
+      <td>4.01%</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GRND/chart?p=GRND" target="_blank">GRND</a></td>
+      <td>Grindr Inc</td>
+      <td>Technology</td>
+      <td>Software - Application</td>
+      <td>Mid</td>
+      <td>3.87%</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FOX/chart?p=FOX" target="_blank">FOX</a></td>
+      <td>Fox Corporation</td>
+      <td>Communication Services</td>
+      <td>Entertainment</td>
+      <td>Large</td>
+      <td>3.83%</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WRBY/chart?p=WRBY" target="_blank">WRBY</a></td>
+      <td>Warby Parker Inc</td>
+      <td>Healthcare</td>
+      <td>Medical Instruments & Supplies</td>
+      <td>Mid</td>
+      <td>3.81%</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WK/chart?p=WK" target="_blank">WK</a></td>
+      <td>Workiva Inc</td>
+      <td>Technology</td>
+      <td>Software - Application</td>
+      <td>Mid</td>
+      <td>3.81%</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BBAR/chart?p=BBAR" target="_blank">BBAR</a></td>
+      <td>BBVA Argentina ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.69%</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GGAL/chart?p=GGAL" target="_blank">GGAL</a></td>
+      <td>Grupo Financiero Galicia ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.54%</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/FOXA/chart?p=FOXA" target="_blank">FOXA</a></td>
+      <td>Fox Corporation</td>
+      <td>Communication Services</td>
+      <td>Entertainment</td>
+      <td>Large</td>
+      <td>3.48%</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/VRNA/chart?p=VRNA" target="_blank">VRNA</a></td>
+      <td>Verona Pharma Plc ADR</td>
+      <td>Healthcare</td>
+      <td>Biotechnology</td>
+      <td>Mid</td>
+      <td>3.34%</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/CIEN/chart?p=CIEN" target="_blank">CIEN</a></td>
+      <td>CIENA Corp</td>
+      <td>Technology</td>
+      <td>Communication Equipment</td>
+      <td>Large</td>
+      <td>3.31%</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/BMA/chart?p=BMA" target="_blank">BMA</a></td>
+      <td>Banco Macro S.A. ADR</td>
+      <td>Financial</td>
+      <td>Banks - Regional</td>
+      <td>Mid</td>
+      <td>3.29%</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WAY/chart?p=WAY" target="_blank">WAY</a></td>
+      <td>Waystar Holding Corp</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Mid</td>
+      <td>3.06%</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/WGS/chart?p=WGS" target="_blank">WGS</a></td>
+      <td>GeneDx Holdings Corp</td>
+      <td>Healthcare</td>
+      <td>Health Information Services</td>
+      <td>Mid</td>
+      <td>2.98%</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/JBL/chart?p=JBL" target="_blank">JBL</a></td>
+      <td>Jabil Inc</td>
+      <td>Technology</td>
+      <td>Electronic Components</td>
+      <td>Large</td>
+      <td>2.90%</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/SLM/chart?p=SLM" target="_blank">SLM</a></td>
+      <td>SLM Corp</td>
+      <td>Financial</td>
+      <td>Credit Services</td>
+      <td>Mid</td>
+      <td>2.63%</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/GME/chart?p=GME" target="_blank">GME</a></td>
+      <td>Gamestop Corporation</td>
+      <td>Consumer Cyclical</td>
+      <td>Specialty Retail</td>
+      <td>Large</td>
+      <td>2.34%</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/KR/chart?p=KR" target="_blank">KR</a></td>
+      <td>Kroger Co</td>
+      <td>Consumer Defensive</td>
+      <td>Grocery Stores</td>
+      <td>Large</td>
+      <td>2.32%</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2024-12-24</td>
+      <td><a href="http://uk.finance.yahoo.com/quote/OLLI/chart?p=OLLI" target="_blank">OLLI</a></td>
+      <td>Ollies Bargain Outlet Holdings Inc</td>
+      <td>Consumer Defensive</td>
+      <td>Discount Stores</td>
+      <td>Mid</td>
+      <td>2.25%</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br>
